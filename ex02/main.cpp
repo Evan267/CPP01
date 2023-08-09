@@ -6,7 +6,7 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/19 16:30:52 by eberger           #+#    #+#             */
-/*   Updated: 2023/05/19 16:55:04 by eberger          ###   ########.fr       */
+/*   Updated: 2023/08/09 10:12:33 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,6 @@ int	main(void)
 	std::cout << "valeur de str: " << stringVar << std::endl;
 	std::cout << "valeur stockée dans ptr: " << *stringPTR << std::endl;
 	std::cout << "valeur stockée dans ref: " << stringREF << std::endl;
+
+	return (0);
 }

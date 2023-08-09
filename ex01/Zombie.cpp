@@ -6,7 +6,7 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 12:47:07 by eberger           #+#    #+#             */
-/*   Updated: 2023/05/19 16:13:24 by eberger          ###   ########.fr       */
+/*   Updated: 2023/08/09 10:01:40 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ Zombie::Zombie(void)
 
 Zombie::~Zombie(void)
 {
+	std::cout << "Zombie destructor called" << std::endl;
 	return ;
 }
 

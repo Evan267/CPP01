@@ -6,7 +6,7 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 12:47:07 by eberger           #+#    #+#             */
-/*   Updated: 2023/05/18 13:06:58 by eberger          ###   ########.fr       */
+/*   Updated: 2023/08/09 09:40:04 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ Zombie::Zombie(std::string name)
 
 Zombie::~Zombie(void)
 {
+	std::cout << this->_name << " destructor called" << std::endl;
 	return ;
 }
 

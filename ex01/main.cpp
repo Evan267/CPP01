@@ -6,7 +6,7 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 15:22:05 by eberger           #+#    #+#             */
-/*   Updated: 2023/05/19 16:19:16 by eberger          ###   ########.fr       */
+/*   Updated: 2023/08/09 10:00:16 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,6 @@ int	main(void)
 		horde[i].announce();
 		i++;
 	}
-	delete []horde;
-	return (1);
+	delete [] horde;
+	return (0);
 }

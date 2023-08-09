@@ -6,7 +6,7 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/19 17:19:25 by eberger           #+#    #+#             */
-/*   Updated: 2023/05/19 20:42:05 by eberger          ###   ########.fr       */
+/*   Updated: 2023/08/09 10:36:11 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ class Weapon {
 
 public:
 
-	std::string	const & getType(void) const;
-	void			setType(std::string type);
+	std::string const &	getType(void) const;
+	void				setType(std::string type);
 	Weapon(std::string type);
 	~Weapon(void);
 
