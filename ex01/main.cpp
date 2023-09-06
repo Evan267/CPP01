@@ -19,8 +19,8 @@ int	main(void)
 	int	sizeHorde;
 
 	i = 0;
-	sizeHorde = 10;
-	horde = zombieHorde(sizeHorde, "Evan");
+	sizeHorde = 5;
+	horde = zombieHorde(sizeHorde, "Test");
 	while (i < sizeHorde)
 	{
 		horde[i].announce();

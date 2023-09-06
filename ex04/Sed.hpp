@@ -3,6 +3,8 @@
 
 # include <fstream>
 # include <iostream>
+# include <string>
+# include <cstring>
 
 class Sed {
 
@@ -13,14 +15,14 @@ public:
 
 private:
 
-	std::string	_filename;
+	std::string		_filename;
 	std::fstream	_source;
 	std::fstream	_destination;
-	std::string	_stringBufferSource;
-	int		_createDestinationFile(void);
-	int		_openSourceFile(void);
-	void		_replaceStringInSource(std::string stringToReplace, std::string newString);
-	void		_closeAllFiles(void);
+	std::string		_stringBufferSource;
+	int				_createDestinationFile(void);
+	int				_openSourceFile(void);
+	void			_replaceStringInSource(std::string stringToReplace, std::string newString);
+	void			_closeAllFiles(void);
 
 };
 

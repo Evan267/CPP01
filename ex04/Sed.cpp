@@ -33,7 +33,7 @@ int	Sed::_openSourceFile(void)
 {
 	std::filebuf	*bufferSource;
 
-	this->_source.open(this->_filename, std::fstream::in);
+	this->_source.open(this->_filename.c_str(), std::fstream::in);
 	if (this->_source.fail())
 	{
 		std::cerr << "Erreur de creation du fichier .replace"
@@ -55,7 +55,7 @@ int	Sed::_createDestinationFile(void)
 	std::string	filenameReplace;
 
 	filenameReplace = this->_filename.append(".replace");
-	this->_destination.open(filenameReplace, std::fstream::out);
+	this->_destination.open(filenameReplace.c_str(), std::fstream::out);
 	if (this->_destination.fail())
 	{
 		std::cerr << "Erreur de creation du fichier .replace"
